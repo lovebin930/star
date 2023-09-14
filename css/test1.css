@@ -1,0 +1,196 @@
+    @font-face {
+        font-family: 'KOTRAHOPE';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+        font-family: 'KOTRAHOPE';
+    }
+    .backc{
+        margin-left: 15px;
+        font-size: 25px;
+        color: white;
+        position: absolute;
+    }
+    .backc:hover{
+        transform: rotate(20deg);
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    body{
+        overflow-y: hidden;
+    }
+
+    ul, li{
+        list-style-type: none;
+    }
+
+    .container{
+        width: 500px;
+        height: 2000000000px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #000000;
+    }
+
+    header{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .star{
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+    }
+
+    .star ul{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .star a img{
+        width: 250px;
+        height: 250px;
+
+        margin-left: 125px;
+        justify-content: center;
+        position: absolute;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    .close{
+        margin: 0 auto;
+        margin-top: 700px;
+        width: 300px;
+        height: 120px;
+        justify-content: center;
+    }
+
+    .close a {
+        width: 300px;
+        height: 150px;
+    }
+
+    .close > button{
+        border: none;
+    }
+
+    .close img{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    .boxxxxx{
+        width: 500px;
+        height: 300px;
+        margin-top: 60px;
+        padding-top: 30px;
+        justify-content: center;
+
+        margin-left: 65px; 
+    }
+
+    .boxxxxx ul {
+        display: flex;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+        width: 180px;
+        height: 180px;
+    }
+
+    .boxxxxx ul li img {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* .box1 ul li{
+        width: 100px;
+        height: 100px;
+        display: flex;
+    } */
+
+    .b-content:hover{
+        animation: big 0.2s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes big{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.1);
+        }
+    }
+    .modals{
+        width: 400px;
+        height: 840px;
+        background-color: #000000;
+        position: absolute;
+        left: 40%;
+        top: 10%;
+        border: 1px solid white;
+        visibility: hidden;
+    }
+
+    .modals > img:nth-child(2) {
+        object-fit: cover;
+        height: 18%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .close-modals{
+        width: 40px;
+        height: 40px;
+        font-size: xx-large;
+        float: right;
+        margin-right: 10px;  
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .see {
+        visibility: visible !important;
+    }
+    
+    .r11{
+        width: 400px;
+    }
+
+    .close-modal {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        border: 1px solid none;
+    }
+
+    .close-modal:hover{
+        background-color: gray;
+        color: whitesmoke;
+    }
